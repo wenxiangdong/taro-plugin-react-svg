@@ -1,0 +1,29 @@
+{
+  "name": "taro-plugin-react-svg",
+  "version": "0.0.1",
+  "description": "use svg in taro",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "taro",
+    "plugin",
+    "svg"
+  ],
+  "author": "wenxiangdong",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^2.0.0",
+    "svgo": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/svgo": "^2.3.1",
+    "typescript": "^4.3.5"
+  }
+}
